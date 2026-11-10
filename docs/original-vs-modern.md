@@ -10,6 +10,14 @@ In 2023, a University of Maryland team built a fiction-library database to pract
 | Presentation | Database archive, query text, and an academic report | Search, filtering, analytics, and a browser-based SQL explorer |
 | Runtime | PostgreSQL for exploring the relational database | Streamlit serves the data and verified query outputs from bundled files |
 
+## What changed after the March 2023 proposal
+
+The INST 123 proposal sketched a tracker for one person's fiction and nonfiction collection. It proposed tables for books, authors, genres, and publishers, along with hypothetical purchase records. Those records would have supported questions about spending, purchase dates and locations, and publisher coverage. The team also set aside reading progress, user reviews, and detailed author biographies.
+
+The completed team project narrowed the scope to fiction and focused on discovery. The archived books table stores genre labels, format, page counts, and Goodreads-related ratings and review counts. There is no publisher table or purchase history in the archive. The implemented genre relationship goes through the author record, and the book also carries its own genre label. The five delivered queries reflect that shift. They ask about ratings, author birth dates, book length, and linked genres.
+
+Source document: INST 123 Team Project Proposal, University of Maryland, March 17, 2023.
+
 ## Follow the source
 
 1. [Readable historical database](../legacy/original_database.sql) reconstructs the schema, all 73 rows, and sequence positions from the PostgreSQL 15.1 TAR archive. The file is a derived SQL representation.
