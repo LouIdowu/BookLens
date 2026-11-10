@@ -192,6 +192,17 @@ def about():
     st.write("Ratings, counts, dates and genres are historical source values. Edition and capture-date coverage are limited. A future version could track snapshot dates, reconcile editions and model multiple authors and genres with junction tables.")
 
 
+    st.subheader("From PostgreSQL to BookLens")
+    st.write("The 2023 team built the schema and wrote the five analytical queries. BookLens reconstructs that archive, verifies the query results, and uses the same data in an interactive dashboard.")
+    st.markdown(
+        "- [Historical database SQL](https://github.com/LouIdowu/BookLens/blob/main/legacy/original_database.sql)\n"
+        "- [Original five queries](https://github.com/LouIdowu/BookLens/blob/main/legacy/original_queries.sql)\n"
+        "- [Modernized queries](https://github.com/LouIdowu/BookLens/blob/main/sql/queries.sql)\n"
+        "- [Original project and modernization](https://github.com/LouIdowu/BookLens/blob/main/docs/original-vs-modern.md)\n"
+        "- [BookLens repository](https://github.com/LouIdowu/BookLens)\n"
+    )
+
+
 def main():
     st.markdown(CSS, unsafe_allow_html=True)
     with st.sidebar:

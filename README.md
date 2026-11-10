@@ -1,9 +1,13 @@
 # BookLens
 
 **PostgreSQL Book Discovery & Analytics**
-Explore fiction through data.
+*Explore fiction through data.*
 
 BookLens turns a collaborative 2023 fiction-library database into an interactive catalog and SQL portfolio. Search 29 books, explore ratings and reading length, and follow five SQL analyses from the original relational schema to verified results.
+
+[Historical database](legacy/original_database.sql) · [Original queries](legacy/original_queries.sql) · [Modernized queries](sql/queries.sql) · [Project evolution](docs/original-vs-modern.md)
+
+![BookLens Overview showing the fiction catalog and its headline metrics](docs/screenshots/overview.jpg)
 
 ## Explore the dashboard
 
@@ -15,6 +19,8 @@ BookLens turns a collaborative 2023 fiction-library database into an interactive
 | SQL Query Explorer | Read five highlighted PostgreSQL queries and inspect their verified output tables |
 | Database Architecture | Explore the ER diagram, schema, keys and snapshot pipeline |
 | About and Methodology | Review the project's origin, analytical choices and limitations |
+
+See the [Book Explorer](docs/screenshots/book-explorer.jpg), [SQL Query Explorer](docs/screenshots/sql-query-explorer.jpg), and [Database Architecture](docs/screenshots/database-architecture.jpg) in screenshots from the running app.
 
 ## What the snapshot shows
 
@@ -57,7 +63,7 @@ pg_restore --exit-on-error --single-transaction --no-owner --no-privileges --dbn
 python scripts/export_snapshot.py
 ```
 
-The historical file is a TAR archive despite its extension. The archive's generated restore script contains database-level operations targeting `postgres`. The command above targets `library_portfolio` and omits both `--create` and `--clean`. The original archive is retained separately. The export runs all table and query reads within one read-only transaction.
+The historical file is a TAR archive despite its extension. The archive's generated restore script contains database-level operations targeting `postgres`. The command above targets `library_portfolio` and omits both `--create` and `--clean`. The original archive is retained separately. The export runs all table and query reads within one read-only transaction. A [readable historical reconstruction](legacy/README.md) is also available and includes the original schema and sample rows.
 
 ## Deploy
 
