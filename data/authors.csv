@@ -1,0 +1,30 @@
+author_id,name,birth_date,genre_speciality,genre_id
+1,Suzanne Collins,1962-08-10,Dystopian,1
+2,J.K. Rowling,1965-07-31,Fantasy,2
+3,Harper Lee,1926-04-28,Southern Gothic,3
+4,Jane Austen,1775-12-16,Romance,4
+5,Stephenie Meyer,1973-12-24,Young Adult,5
+6,Markus Zusak,1975-06-23,Historical Fiction,6
+7,C.S. Lewis,1898-11-29,Fantasy,2
+8,George Orwell,1903-06-25,Dystopian,1
+9,Margaret Mitchell,1900-11-08,Historical Fiction,6
+10,J.R.R. Tolkien,1892-01-03,Fantasy,2
+11,John Green,1977-08-24,Young Adult,5
+12,Douglas Adams,1952-03-11,Science Fiction,7
+13,Shel Silverstein,1930-09-25,Children Literature,8
+14,Dan Brown,1964-06-22,Thriller,9
+15,Emily Bront,1818-07-30,Gothic Fiction,10
+16,Arthur Golden,1956-12-06,Historical Fiction,6
+17,Lewis Carroll,1832-01-27,Fantasy,2
+18,Oscar Wilde,1854-10-16,Drama,11
+19,Victor Hugo,1802-02-26,Historical Fiction,6
+20,Veronica Roth,1988-08-19,Dystopian,1
+21,Charlotte Bront,1816-04-21,Gothic Fiction,10
+22,William Shakespeare,1564-04-23,Drama,11
+23,William Golding,1911-09-19,Allegorical,12
+24,Paulo Coelho,1947-08-24,Philosophical,13
+25,Fyodor Dostoyevsky,1821-11-11,Philosophical,13
+26,Orson Scott Card,1951-08-24,Science Fiction,7
+27,Stephen Chbosky,1970-01-25,Young Adult,5
+28,Cassandra Clare,1973-07-27,Urban Fantasy,14
+29,Kathryn Stockett,1969-02-19,Historical Fiction,6

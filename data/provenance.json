@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "d7ed446da5b5e9004bb744f889a145fa0fd6890c75265c8cec60d18f4708af7e",
+  "source_version": "PostgreSQL 15.1",
+  "verification": "PostgreSQL 17.5 (PGlite). Archive schema and COPY records reconstructed in an isolated library_portfolio database. Original and revised queries returned identical row sets.",
+  "counts": {
+    "books": 29,
+    "authors": 29,
+    "genres": 15
+  }
+}

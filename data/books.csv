@@ -1,0 +1,30 @@
+book_id,book_authors,book_format,book_pages,book_rating,book_rating_count,book_review_count,book_title,genres,author_id
+1,Suzanne Collins,Hardcover,374,4.33,5519135,160706,The Hunger Games,Dystopian,1
+2,J.K. Rowling,Paperback,870,4.48,2041594,33264,Harry Potter and the Order of the Phoenix,Fantasy,2
+3,Harper Lee,Paperback,324,4.27,3745197,79450,To Kill a Mockingbird,Southern Gothic,3
+4,Jane Austen,Paperback,279,4.25,2453620,54322,Pride and Prejudice,Romance,4
+5,Stephenie Meyer,Paperback,498,3.58,4281268,97991,Twilight,Young Adult,5
+6,Markus Zusak,Hardcover,552,4.36,1485632,100821,The Book Thief,Historical Fiction,6
+7,C.S. Lewis,Paperback,767,4.25,437829,9439,The Chronicles of Narnia,Fantasy,7
+8,George Orwell,Paperback,122,3.9,2235084,42156,Animal Farm,Dystopian,8
+9,Margaret Mitchell,Paperback,1037,4.29,969181,17452,Gone with the Wind,Historical Fiction,9
+10,J.R.R. Tolkien,Mass Market Paperback,1728,4.59,99793,1652,J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings,Fantasy,10
+11,John Green,Hardcover,313,4.24,2881648,147270,The Fault in Our Stars,Young Adult,11
+12,Douglas Adams,Paperback,193,4.21,1155911,23919,The Hitchhiker's Guide to the Galaxy,Science Fiction,12
+13,Shel Silverstein,Hardcover,64,4.37,789681,15694,The Giving Tree,Children Literature,13
+14,Dan Brown,Paperback,481,3.81,1668594,43699,The Da Vinci Code,Thriller,14
+15,Emily Bront,Paperback,464,3.84,1121100,29400,Wuthering Heights,Gothic Fiction,15
+16,Arthur Golden,Hardcover,434,4.09,1525851,27168,Memoirs of a Geisha,Historical Fiction,16
+17,Lewis Carroll,Mass Market Paperback,239,4.07,411153,9166,Alice's Adventures in Wonderland & Through the Looking-Glass,Fantasy,17
+18,Oscar Wilde,Paperback,367,4.06,775701,22938,The Picture of Dorian Gray,Drama,18
+19,Victor Hugo,Mass Market Paperback,1463,4.15,591874,13063,Les Misrables,Historical Fiction,19
+20,Veronica Roth,Paperback,487,4.22,2493519,104329,Divergent,Dystopian,20
+21,Charlotte Bront,Paperback,507,4.11,1381404,34670,Jane Eyre,Gothic Fiction,21
+22,William Shakespeare,Mass Market Paperback,283,3.74,1818262,16442,Romeo and Juliet,Drama,22
+23,William Golding,Paperback,182,3.66,1840595,30634,Lord of the Flies,Allegorical,23
+24,Paulo Coelho,Paperback,197,3.84,1644387,63861,The Alchemist,Philosophical,24
+25,Fyodor Dostoyevsky,Paperback,671,4.2,507522,14496,Crime and Punishment,Philosophical,25
+26,Orson Scott Card,Mass Market Paperback,324,4.3,965351,40289,Ender's Game,Science Fiction,26
+27,Stephen Chbosky,Paperback,213,4.2,1063711,50846,The Perks of Being a Wallflower,Young Adult,27
+28,Cassandra Clare,Hardcover,485,4.11,1383479,55446,City of Bones,Urban Fantasy,28
+29,Kathryn Stockett,Hardcover,465,4.46,1790905,80741,The Help,Historical Fiction,29
