@@ -5,6 +5,8 @@
 
 BookLens turns a collaborative 2023 fiction-library database into an interactive catalog and SQL portfolio. Search 29 books, explore ratings and reading length, and follow five SQL analyses from the original relational schema to verified results.
 
+**[Open the live BookLens dashboard](https://booklens-louidowu.streamlit.app/)**
+
 [Historical database](legacy/original_database.sql) · [Original queries](legacy/original_queries.sql) · [Modernized queries](sql/queries.sql) · [Project evolution](docs/original-vs-modern.md)
 
 ![BookLens Overview showing the fiction catalog and its headline metrics](docs/screenshots/overview.jpg)
@@ -67,7 +69,7 @@ The historical file is a TAR archive despite its extension. The archive's genera
 
 ## Deploy
 
-In [Streamlit Community Cloud](https://share.streamlit.io/), create an app from `LouIdowu/BookLens` on branch `main`. Select `streamlit_app.py` and Python 3.12. Enter `booklens-louidowu` if the deployment form confirms availability.
+In [Streamlit Community Cloud](https://share.streamlit.io/), create an app from `LouIdowu/BookLens` on branch `main`. Select `streamlit_app.py` and Python 3.12. The public deployment is available at [BookLens on Streamlit](https://booklens-louidowu.streamlit.app/).
 
 ## Data scope
 
